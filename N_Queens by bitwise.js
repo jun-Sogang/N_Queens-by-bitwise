@@ -27,5 +27,5 @@ var rec = function(row, NbyN) {
 
 for (var i = 1; i <= 8; i++) {
 	var ans = 0;
-	console.log(i, ': ', rec(0, i, 0));
+	console.log(i, ': ', rec(0, i));
 }
